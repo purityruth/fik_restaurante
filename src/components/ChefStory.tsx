@@ -16,7 +16,7 @@ export default function ChefStory() {
           >
             <div className="relative h-96 rounded-2xl overflow-hidden">
               <Image
-                src="/images/fried-chicken-mixed-with-vegetables.webp"
+                src="/images/chef-cooking-kitchen-while-wearing-professional-attire.webp"
                 alt="Chef Marco"
                 fill
                 className="object-cover"
