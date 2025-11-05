@@ -15,12 +15,12 @@ export default function ChefStory() {
             viewport={{ once: true }}
           >
             <div className="relative h-96 rounded-2xl overflow-hidden">
-              {/* <Image
-                src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              <Image
+                src="/images/fried-chicken-mixed-with-vegetables.webp"
                 alt="Chef Marco"
                 fill
                 className="object-cover"
-              /> */}
+              />
             </div>
           </motion.div>
           

@@ -8,55 +8,55 @@ import Image from 'next/image';
 const galleryImages = [
   {
     id: 1,
-    src: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    src: '/images/fried-chicken-mixed-with-vegetables.webp',
     alt: 'Restaurant Interior',
     category: 'interior'
   },
   {
     id: 2,
-    src: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    src: '/images/fried-chicken-mixed-with-vegetables.webp',
     alt: 'Chef Plating',
     category: 'kitchen'
   },
   {
     id: 3,
-    src: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    src: '/images/fried-chicken-mixed-with-vegetables.webp',
     alt: 'Pizza Dish',
     category: 'food'
   },
   {
     id: 4,
-    src: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    src: '/images/fried-chicken-mixed-with-vegetables.webp',
     alt: 'Pasta Dish',
     category: 'food'
   },
   {
     id: 5,
-    src: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    src: '/images/fried-chicken-mixed-with-vegetables.webp',
     alt: 'Wine Selection',
     category: 'beverages'
   },
   {
     id: 6,
-    src: 'https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    src: '/images/fried-chicken-mixed-with-vegetables.webp',
     alt: 'Cocktails',
     category: 'beverages'
   },
   {
     id: 7,
-    src: 'https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    src: '/images/fried-chicken-mixed-with-vegetables.webp',
     alt: 'Dining Area',
     category: 'interior'
   },
   {
     id: 8,
-    src: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    src: '/images/fried-chicken-mixed-with-vegetables.webp',
     alt: 'Dessert',
     category: 'food'
   },
   {
     id: 9,
-    src: 'https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    src: '/images/fried-chicken-mixed-with-vegetables.webp',
     alt: 'Appetizers',
     category: 'food'
   }

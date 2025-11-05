@@ -18,24 +18,24 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
   // Breakfast
-  { id: 1, name: 'Avocado Toast', description: 'Sourdough, smashed avocado, poached eggs, microgreens', price: '$16', category: 'breakfast', image: 'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80' },
-  { id: 2, name: 'French Toast', description: 'Brioche, maple syrup, seasonal berries, chantilly cream', price: '$14', category: 'breakfast', image: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', isSignature: true },
+  { id: 1, name: 'Avocado Toast', description: 'Sourdough, smashed avocado, poached eggs, microgreens', price: '$16', category: 'breakfast', image: '/images/fried-chicken-mixed-with-vegetables.webp' },
+  { id: 2, name: 'French Toast', description: 'Brioche, maple syrup, seasonal berries, chantilly cream', price: '$14', category: 'breakfast', image: '/images/fried-chicken-mixed-with-vegetables.webp', isSignature: true },
   
   // Lunch
-  { id: 3, name: 'Caesar Salad', description: 'Romaine, parmesan, croutons, classic dressing', price: '$18', category: 'lunch', image: 'https://images.unsplash.com/photo-1546793665-c74683f339c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80' },
-  { id: 4, name: 'Truffle Burger', description: 'Wagyu beef, truffle aioli, brioche bun, truffle fries', price: '$24', category: 'lunch', image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', isSignature: true },
+  { id: 3, name: 'Caesar Salad', description: 'Romaine, parmesan, croutons, classic dressing', price: '$18', category: 'lunch', image: '/images/fried-chicken-mixed-with-vegetables.webp' },
+  { id: 4, name: 'Truffle Burger', description: 'Wagyu beef, truffle aioli, brioche bun, truffle fries', price: '$24', category: 'lunch', image: '/images/fried-chicken-mixed-with-vegetables.webp', isSignature: true },
   
   // Dinner
-  { id: 5, name: 'Filet Mignon', description: '8oz grass-fed beef, red wine reduction, roasted vegetables', price: '$42', category: 'dinner', image: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', isSignature: true },
-  { id: 6, name: 'Sea Bass', description: 'Pan-seared, lemon butter, seasonal vegetables, herb crust', price: '$36', category: 'dinner', image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80' },
+  { id: 5, name: 'Filet Mignon', description: '8oz grass-fed beef, red wine reduction, roasted vegetables', price: '$42', category: 'dinner', image: '/images/fried-chicken-mixed-with-vegetables.webp', isSignature: true },
+  { id: 6, name: 'Sea Bass', description: 'Pan-seared, lemon butter, seasonal vegetables, herb crust', price: '$36', category: 'dinner', image: '/images/fried-chicken-mixed-with-vegetables.webp' },
   
   // Beverages
-  { id: 7, name: 'Craft Cocktails', description: 'Seasonal ingredients, house-made syrups, premium spirits', price: '$14', category: 'beverages', image: 'https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80' },
-  { id: 8, name: 'Wine Selection', description: 'Curated international wines, sommelier recommendations', price: '$12-$18', category: 'beverages', image: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80' },
+  { id: 7, name: 'Craft Cocktails', description: 'Seasonal ingredients, house-made syrups, premium spirits', price: '$14', category: 'beverages', image: '/images/fried-chicken-mixed-with-vegetables.webp' },
+  { id: 8, name: 'Wine Selection', description: 'Curated international wines, sommelier recommendations', price: '$12-$18', category: 'beverages', image: '/images/fried-chicken-mixed-with-vegetables.webp' },
   
   // Cocktails
-  { id: 9, name: 'Elevate Spritz', description: 'Prosecco, aperol, blood orange, sparkling water', price: '$16', category: 'cocktails', image: 'https://images.unsplash.com/photo-1551538827-9c037cb4f32a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', isSignature: true },
-  { id: 10, name: 'Smoked Old Fashioned', description: 'Bourbon, demerara, orange bitters, smoked glass', price: '$18', category: 'cocktails', image: 'https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80' },
+  { id: 9, name: 'Elevate Spritz', description: 'Prosecco, aperol, blood orange, sparkling water', price: '$16', category: 'cocktails', image: '/images/fried-chicken-mixed-with-vegetables.webp', isSignature: true },
+  { id: 10, name: 'Smoked Old Fashioned', description: 'Bourbon, demerara, orange bitters, smoked glass', price: '$18', category: 'cocktails', image: '/images/fried-chicken-mixed-with-vegetables.webp' },
 ];
 
 const categories = ['all', 'breakfast', 'lunch', 'dinner', 'beverages', 'cocktails'];

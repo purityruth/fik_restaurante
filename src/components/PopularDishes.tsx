@@ -17,42 +17,42 @@ const dishes: Dish[] = [
     name: "Truffle Mushroom Risotto",
     description: "Creamy arborio rice with wild mushrooms and black truffle",
     price: "$28",
-    image: "https://images.unsplash.com/photo-1476124369491-e7addf5db371?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    image: "/images/fried-chicken-mixed-with-vegetables.webp"
   },
   {
     id: 2,
     name: "Herb Crusted Salmon",
     description: "Atlantic salmon with fresh herbs and lemon butter sauce",
     price: "$32",
-    image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    image: "/images/fried-chicken-mixed-with-vegetables.webp"
   },
   {
     id: 3,
     name: "Wagyu Beef Burger",
     description: "Premium wagyu patty with truffle aioli and aged cheddar",
     price: "$26",
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    image: "/images/fried-chicken-mixed-with-vegetables.webp"
   },
   {
     id: 4,
     name: "Lobster Linguine",
     description: "Fresh lobster with handmade pasta in garlic white wine sauce",
     price: "$38",
-    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    image: "/images/fried-chicken-mixed-with-vegetables.webp"
   },
   {
     id: 5,
     name: "Berry Pavlova",
     description: "Crisp meringue with fresh berries and chantilly cream",
     price: "$14",
-    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    image: "/images/fried-chicken-mixed-with-vegetables.webp"
   },
   {
     id: 6,
     name: "Burrata Caprese",
     description: "Creamy burrata with heirloom tomatoes and basil pesto",
     price: "$18",
-    image: "https://images.unsplash.com/photo-1565992441121-4367c2967103?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    image: "/images/fried-chicken-mixed-with-vegetables.webp"
   }
 ];
 
@@ -86,12 +86,12 @@ export default function PopularDishes() {
               viewport={{ once: true }}
             >
               <div className="relative h-64">
-                {/* <Image
+                <Image
                   src={dish.image}
                   alt={dish.name}
                   fill
                   className="object-cover"
-                /> */}
+                />
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-start mb-3">
