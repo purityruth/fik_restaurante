@@ -9,43 +9,43 @@ import { FiStar } from 'react-icons/fi';
 const galleryImages = [
   {
     id: 1,
-    src: '/images/fried-chicken-mixed-with-vegetables.webp',
+    src: '/images/french-restaurant-scene-with-menu-board.webp',
     alt: 'Restaurant Interior',
     category: 'interior'
   },
   {
     id: 2,
-    src: '/images/fried-chicken-mixed-with-vegetables.webp',
+    src: '/images/glass-glass-orange-cocktail-garnished-with-dried-orange-slice.webp',
     alt: 'Chef Plating',
     category: 'kitchen'
   },
   {
     id: 3,
-    src: '/images/fried-chicken-mixed-with-vegetables.webp',
+    src: '/images/fried-chicken-with-grilled-potatoes-eggplants-tomatoes-peppers.webp',
     alt: 'Pizza Dish',
     category: 'food'
   },
   {
     id: 4,
-    src: '/images/fried-chicken-mixed-with-vegetables.webp',
+    src: '/images/red-drink-martini-glass-with-lemon-zest-garnish-dim-lit-bar-with-flowers.webp',
     alt: 'Pasta Dish',
     category: 'food'
   },
   {
     id: 5,
-    src: '/images/fried-chicken-mixed-with-vegetables.webp',
+    src: '/images/grilled-salmon-fillet-with-fresh-vegetable-salad-generated-by-ai.webp',
     alt: 'Wine Selection',
     category: 'beverages'
   },
   {
     id: 6,
-    src: '/images/fried-chicken-mixed-with-vegetables.webp',
+    src: '/images/avocado-toast-plate-with-tomatoes-sauce.webp',
     alt: 'Cocktails',
     category: 'beverages'
   },
   {
     id: 7,
-    src: '/images/fried-chicken-mixed-with-vegetables.webp',
+    src: '/images/delicious-traditional-dessert-assortment.webp',
     alt: 'Dining Area',
     category: 'interior'
   },
@@ -57,7 +57,7 @@ const galleryImages = [
   },
   {
     id: 9,
-    src: '/images/fried-chicken-mixed-with-vegetables.webp',
+    src: '/images/flat-lay-salad-with-chicken-sesame-seeds.webp',
     alt: 'Appetizers',
     category: 'food'
   }
