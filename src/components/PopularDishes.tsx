@@ -86,12 +86,12 @@ export default function PopularDishes() {
               viewport={{ once: true }}
             >
               <div className="relative h-64">
-                <Image
+                {/* <Image
                   src={dish.image}
                   alt={dish.name}
                   fill
                   className="object-cover"
-                />
+                /> */}
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-start mb-3">
