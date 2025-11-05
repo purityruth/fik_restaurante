@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { motion } from 'framer-motion';
-import { FiPhone, FiMail, FiMapPin, FiClock } from 'react-icons/fi';
+import { FiPhone, FiMail, FiMapPin, FiClock, FiStar } from 'react-icons/fi';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -31,28 +31,45 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen">
       <Header />
-      
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-charcoal text-white">
-        <div className="container mx-auto px-6 text-center">
-          <motion.h1 
-            className="text-5xl md:text-7xl font-serif font-bold mb-6"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            Contact Us
-          </motion.h1>
-          <motion.p 
-            className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            Get in touch - we'd love to hear from you
-          </motion.p>
-        </div>
-      </section>
+
+        {/* Hero Section */}
+        <section 
+            className="pt-32 pb-20 text-white relative overflow-hidden bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: "url('/images/grilled-salmon-fillet-with-fresh-vegetable-salad-generated-by-ai.webp')" }}
+            >
+            <div className="absolute inset-0 bg-charcoal/70 backdrop-blur-sm"></div>
+            <div className="container mx-auto px-6 text-center relative z-10">
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.6 }}
+                    className="inline-flex items-center gap-2 bg-gold/20 px-4 py-2 rounded-full mb-6"
+                >
+                <FiStar className="text-gold" />
+                <span className="text-gold font-semibold text-sm uppercase tracking-wide">Our gallery</span>
+                <FiStar className="text-gold" />
+                </motion.div>
+    
+                <motion.h1 
+                    className="text-5xl md:text-7xl font-serif font-bold mb-6"
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
+                >
+                Contact Us
+                </motion.h1>
+    
+                <motion.p 
+                    className="text-xl md:text-2xl text-gold/90 max-w-2xl mx-auto leading-relaxed"
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.2 }}
+                >
+                Get in touch - we'd love to hear from you
+                </motion.p>
+    
+            </div>
+        </section>
 
       {/* Contact Content */}
       <section className="section-padding bg-white">
