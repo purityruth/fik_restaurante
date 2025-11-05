@@ -14,7 +14,7 @@ export default function ChefStory() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="relative h-96 rounded-2xl overflow-hidden">
+            <div className="relative h-130 rounded-2xl overflow-hidden">
               <Image
                 src="/images/chef-cooking-kitchen-while-wearing-professional-attire.webp"
                 alt="Chef Marco"
